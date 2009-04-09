@@ -24,6 +24,7 @@ setup(name='silva.pageactions.base',
       zip_safe=False,
       install_requires=[
         'setuptools',
+        'five.grok',
         'silva.core.views',
         ],
       )
