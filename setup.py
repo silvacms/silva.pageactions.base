@@ -25,6 +25,7 @@ setup(name='silva.pageactions.base',
       install_requires=[
         'setuptools',
         'five.grok',
+        'megrok.chameleon',
         'silva.core.views',
         ],
       )
