@@ -1,6 +1,7 @@
-<ul class="pageactions"
+<ul id="page-actions"
     xmlns:tal="http://xml.zope.org/namespaces/tal">
-  <li tal:repeat="viewlet viewletmanager.viewlets"
+  <li class="page-action" 
+      tal:repeat="viewlet viewletmanager.viewlets"
       tal:content="structure viewlet.render()">
     Viewlet
   </li>
