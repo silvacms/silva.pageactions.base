@@ -2,12 +2,11 @@
 # See also LICENSE.txt
 # $Id$
 
-from Products.Silva.interfaces import ISilvaObject
-
+from silva.core.interfaces import ISilvaObject
 from silva.core.views import views as silvaviews
 from five import grok
 
-from interfaces import IPageActions, IPageAction
+from silva.pageactions.base.interfaces import IPageActions, IPageAction
 
 
 class PageActions(silvaviews.ViewletManager):
