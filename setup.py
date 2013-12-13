@@ -5,7 +5,7 @@ version = '1.1dev'
 
 setup(name='silva.pageactions.base',
       version=version,
-      description="Action on public pages in Silva.",
+      description="Generic actions on public pages in Silva CMS",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='silva.pageactions.base',
       keywords='silva actions pages',
       author='Infrae',
       author_email='info@infrae.com',
-      url='',
+      url='https://github.com/silvacms/silva.pageactions.base',
       license='BSD',
       package_dir={'': 'src'},
       packages=find_packages('src'),
